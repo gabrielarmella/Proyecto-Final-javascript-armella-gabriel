@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final Gabriel Armella</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <div class="nav-container">
+        <nav class="navbar">
+            <a class="logoindex" href="./index.html">
+                <img src="./images/steam-logo.png" alt="steamlogo" width="100px" height="100px">
+                <h1 class="navbar-logo">Steam Verde</h1>
+            </a>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="./pc.html">PC</a></li>
+                <li><a href="./xbox.html">XBOX</a></li>
+                <li><a href="./ps.html">PS</a></li>
+            </ul>
+                <h1 class="ver-carrito" id="verCarrito">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
+        </nav>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner-container">
+            <h1>Steam Verde</h1>
+            <p>Donde podes descarg... comprar tus juegos.</p>
+        </div>
+    </div>
+    <div id="renderCarrito" class="verCarrito"></div>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
