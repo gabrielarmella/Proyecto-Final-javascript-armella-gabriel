@@ -59,6 +59,10 @@ body{
     text-align: center;
     padding: 5% 0;
     color: #ffffffe4;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(./images/steam.jpg);
+    background-position: 0 150px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* card */
@@ -165,6 +169,7 @@ background: linear-gradient(229deg, rgba(41,74,98,1) 0%, rgba(42,54,68,1) 48%, r
     justify-content: space-around;
     align-items: center;
     width: 70%;
+    height: auto;
     margin: 10px;
     p{
         font-family: Arial, Helvetica, sans-serif;

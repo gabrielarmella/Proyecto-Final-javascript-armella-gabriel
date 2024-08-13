@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final Gabriel Armella</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <!-- Encabezado -->
@@ -20,12 +21,9 @@
                 <li><a href="./xbox.html">XBOX</a></li>
                 <li><a href="./ps.html">PS</a></li>
             </ul>
-            <a href="./carrito.html">
-                <h1 class="ver-carrito" id="verCarrito">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
-            </a>
+            <h1 class="ver-carrito" id="verCarrito">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
         </nav>
     </div>
-    <h3>pc</h3>
     <!-- banner -->
     <div class="banner">
         <div class="banner-container">
@@ -33,9 +31,10 @@
             <p>Donde podes descarg... comprar tus juegos.</p>
         </div>
     </div>
-    <div></div>
     <!--Seccion Juegos/Productos-->
     <div id="juegosContent" class="container-juegos"></div> 
+        <!--     modal container -->
+    <div id="modal-container" class="modal-container"></div>
     <script src="./js/carrito.js"></script>
     <script src="./js/main.js"></script>
 </body>
