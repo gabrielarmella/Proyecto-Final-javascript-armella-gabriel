@@ -14,9 +14,7 @@ const getProducts = async() => {
         let content = document.createElement("div");
         content.className = "card";
         content.innerHTML = `
-        <a href="producto.html${juego.id};">
-            <img src="images/${juego.imagen}" width="420px" height="auto">
-        </a>
+        <img src="images/${juego.imagen}" width="420px" height="auto">
         <h3>${juego.nombre}</h3>
         <p class="price">$ ${juego.precio} </p>
         `;
